@@ -20,7 +20,7 @@ More information can be found inside each script. For anything that is unclear o
 To run the scripts, beyond the usual `numpy`, `scipy`, `tensorflow` and `matplotlib`, you will also need:
 - `CLASS`: you can refer to [these instructions](https://github.com/lesgourg/class_public/wiki/Python-wrapper); only the Python wrapper is used.
 - `nbodykit`: you can refer to [these instructions](https://nbodykit.readthedocs.io/en/latest/getting-started/install.html).
-- `PKLibrary`: this comes from [Pylians3](https://pylians3.readthedocs.io/en/master/), for which you can refer to [these instructions](https://pylians3.readthedocs.io/en/master/installation.html)
+- `PKLibrary`: this comes from [Pylians3](https://pylians3.readthedocs.io/en/master/), for which you can refer to [these instructions](https://pylians3.readthedocs.io/en/master/installation.html). This is only used in the reduced bispectrum calculation.
 - `PiInTheSky` and `healpy`: this is only for the bispectra calculation. The code is not currently publicly available, so you will need to contact Davide Piras for this, or remove the parts of the code where bispectra are calculated (namely the validation part). `healpy` can be installed following [these instructions](https://healpy.readthedocs.io/en/latest/install.html).
 
 
