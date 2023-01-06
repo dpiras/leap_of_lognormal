@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import numpy as np
 import tensorflow as tf
-
 from models import Generator, Discriminator, generator_loss, discriminator_loss
 from test_single_epoch import test_single_model
 

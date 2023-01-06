@@ -2,7 +2,6 @@ import os
 import time
 import numpy as np
 import tensorflow as tf
-
 from models import generator_loss, discriminator_loss
 
 @tf.function

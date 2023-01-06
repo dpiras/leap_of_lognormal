@@ -2,8 +2,8 @@ import numpy as np
 import Pk_library as PKL
 # this is for the bispectra; contact Davide Piras to access this, since it is not public yet
 import os, sys
-sys.path.append('/home/dp1627/latin_hypercube/PiInTheSky/')
-sys.path.append('/home/dp1627/latin_hypercube/PiInTheSky/BinnedPrimordialTemplates/')
+sys.path.append('path_to_PiInTheSky/')
+sys.path.append('path_to_PiInTheSky/BinnedPrimordialTemplates/')
 import PiInTheSky.binnedEstimatorFullSky as binEstFullSky
 import PiInTheSky.binnedEstimatorFlatSky as binEstFlatSky
 import healpy as hp
