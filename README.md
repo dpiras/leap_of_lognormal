@@ -12,7 +12,7 @@ We provide the following scripts:
 - [`validate_best_model`](https://github.com/dpiras/leap_of_lognormal/blob/main/scripts/validate_best_model.py): select the best epoch model based on the perfomance on validation data. Also uses `models.py` and `test_single_epoch.py`.
 - [`final_performance`](https://github.com/dpiras/leap_of_lognormal/blob/main/scripts/final_performance.py): apply the best model on test data and obtain the final dataset. Note this does not perform the summary statistics evaluation or figure generation, which is not present in this repository. Also uses `models.py` and `test_single_epoch.py`.
 
-More information can be found inside each script. For anything that is unclear or missing, get in touch with Davide Piras or raise an issue. Similarly, since no trained model is currently provided, do get in touch if you are interested in using a particular pre-trained model &#151; we will be happy to help!
+More information can be found inside each script. For anything that is unclear or missing, get in touch with Davide Piras or raise an issue. Similarly, since no trained model is currently provided, do get in touch if you are interested in using a particular pre-trained model &mdash; we will be happy to help!
 
 
 ## Requirements
