@@ -44,7 +44,7 @@ If you work with this code or some data byproducts, please cite our paper ([and 
      year = {2023},
      month = {1},
      issn = {TBC},
-     doi = {stad052},
+     doi = {10.1093/mnras/stad052},
      url = {TBC},
      eprint = {TBC},
     }
