@@ -1,6 +1,6 @@
 # Leap of lognormal: expensive $N$-body simulations from cheap lognormal fields
 
-This repository contains some of the code to reproduce the results in Piras et al., [`"Fast and realistic large-scale structure from machine-learning-augmented random field simulations"`](https://ui.adsabs.harvard.edu/abs/2022arXiv220507898P/abstract). In short, we use a deep learning algorithm to map cheap lognormal random fields to more realistic $N$-body simulations. The dataset of highly-correlated pairs of cheap and expensive simulations is obtained from the [Quijote simulation suite](https://quijote-simulations.readthedocs.io/en/latest/). 
+This repository contains some of the code to reproduce the results in Piras et al., [`"Fast and realistic large-scale structure from machine-learning-augmented random field simulations"`](https://academic.oup.com/mnras/article/520/1/668/6991219?utm_source=advanceaccess&utm_campaign=mnras&utm_medium=email). In short, we use a deep learning algorithm to map cheap lognormal random fields to more realistic $N$-body simulations. The dataset of highly-correlated pairs of cheap and expensive simulations is obtained from the [Quijote simulation suite](https://quijote-simulations.readthedocs.io/en/latest/). 
 
 
 ## Content description
@@ -34,19 +34,22 @@ Feel free to contact Davide Piras at dr.davide.piras@gmail.com, or [raise an iss
 If you work with this code or some data byproducts, please cite our paper ([and the Quijote one](https://quijote-simulations.readthedocs.io/en/latest/citation.html)):
 
     @article{Piras23,
-     author = {Piras, D. and Joachimi, B. and Villaescusa-Navarro, F.},
+     author = {Piras, Davide and Joachimi, Benjamin and Villaescusa-Navarro, Francisco},
      title = "{Fast and realistic large-scale structure 
                from machine-learning-augmented random field simulations}",
      journal = {Monthly Notices of the Royal Astronomical Society},
-     volume = {TBC},
-     number = {TBC},
-     pages = {TBC},
+     volume = {520},
+     number = {1},
+     pages = {668-683},
      year = {2023},
-     month = {1},
-     issn = {TBC},
+     month = {01},
+     issn = {0035-8711},
      doi = {10.1093/mnras/stad052},
-     url = {TBC},
-     eprint = {TBC},
+     url = {https://doi.org/10.1093/mnras/stad052},
+     eprint = {https://academic.oup.com/mnras/article-pdf/520/1/668/49032061/stad052.pdf},
     }
+
+
+
 
 
